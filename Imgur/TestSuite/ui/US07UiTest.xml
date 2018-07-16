@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="US07UI" verbose="10">
+    <test name="US07UI">
+        <classes>
+            <class name="uiTests.US07UiTest"/>
+        </classes>
+    </test>
+</suite>

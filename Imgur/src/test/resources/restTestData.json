@@ -1,0 +1,128 @@
+{
+  "clientData" : {
+    "clientId" : "f1ff9688376165a",
+    "clientSecret" : "528e38a15085e29272165efc9ec8618f3e497eea",
+    "grant_type" : "refresh_token",
+    "username" : "cshGroupB"
+  },
+  "us01TestData" : {
+    "token_type" : "bearer",
+    "account_id" : 80284629,
+    "account_username" : "cshGroupB",
+
+    "fail_refresh_token" : "1i2a345d",
+    "fail_client_ID" : "12s34c5",
+    "fail_client_secret" : "zc257dz",
+    "fail_grant_type" : "aaaa",
+
+    "fail_refresh_token_error":"Invalid refresh token",
+    "fail_client_credential_error":"The client credentials are invalid",
+    "fail_grant_type_error" : "Invalid grant_type parameter or parameter missing"
+  },
+  "us02TestData" : {
+    "title" : "title",
+    "imageHash" : "uWdQ8et",
+    "invalidImageHash" : "aaa"
+  },
+  "us03TestData" : {
+    "account_url_first" : "newNameCSH",
+    "first" : {
+      "username" : "newNameCSH",
+      "public_images" : "false",
+      "messaging_enabled" : "false",
+      "album_privacy" : "hidden",
+      "accept_gallery_terms" : "false",
+      "show_mature" : "false",
+      "newsletter_subscribed" : "false"
+    },
+    "account_url_second" : "cshGroupB",
+    "second" : {
+      "username" : "cshGroupB",
+      "public_images" : "true",
+      "messaging_enabled" : "true",
+      "album_privacy" : "public",
+      "accept_gallery_terms" : "true",
+      "show_mature" : "true",
+      "newsletter_subscribed" : "true"
+    },
+    "fail_username_error" : "Unable to find account username, cshGroupB"
+  },
+  "us04TestData" : {
+    "title" : "title",
+    "imageHash" : "uWdQ8et",
+    "tag" : "newTag",
+    "description" : "Test description"
+  },
+  "us05TestData" : {
+    "galleryHash" : "rSmCk",
+    "commentSort" : "new",
+    "commentID" : "1253240513",
+    "author" : "wildfrontiersman"
+  },
+  "us06TestData" : {
+    "defaultAvatar" : "default/C"
+  },
+  "us07TestData" : {
+    "searchQuery" : "school",
+    "indicesQuery1" : "cats",
+    "indicesQuery2" : "dogs"
+  },
+  "us08TestData" : {
+    "commentID" : "1254138705",
+    "imageHash" : "a4N4R",
+    "commentText" : "Doesn't even need a wagon",
+    "account_username" : "cshGroupB",
+    "commentSort" : "newest"
+
+  },
+  "us09TestData" : {
+    "account_username" : "cshGroupB"
+  },
+  "us10TestData" : {
+    "data" : "null"
+  },
+  "us11TestData" : {
+    "data" : "null"
+  },
+  "us12TestData" : {
+    "albumTitle" : "My dank meme album test",
+    "imagesIds" : ["p7bcnL1","xJeViKZ","XkBctQt"],
+    "account_username" : "cshGroupB"
+  },
+  "us13TestData" : {
+    "account_username" : "cshGroupB"
+  },
+  "us14TestData" : {
+    "imageID" : "cDjaP",
+    "comment" : "Test comment",
+    "account_username" : "cshGroupB",
+    "commentSort" : "newest"
+
+  },
+  "us15TestData" : {
+    "albumHash" : "Ppqvg",
+    "imageHash" : "2KbQAuZ",
+    "title" : "TestTitle",
+    "description" : "TestDescription"
+  },
+  "us16TestData" : {
+    "imageHash" : "9bXoG"
+  },
+  "us17TestData" : {
+    "name" : "lego",
+    "displayName" : "lego",
+    "backgroundHash" : "oB1KOoT",
+    "accent": "56A2AA"
+  },
+  "us18TestData" : {
+    "data" : "null"
+  },
+  "us19TestData" : {
+    "title" : "title",
+    "albumHash" : "Ppqvg",
+    "invalidImageHash" : "aaa"
+  },
+  "us20TestData" : {
+    "albumHash" : "fULGO"
+  }
+}

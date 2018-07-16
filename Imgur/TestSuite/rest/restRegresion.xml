@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+    <test name="REST Regression">
+        <packages>
+            <package name="restTests.US01"/>
+            <package name="restTests.US02"/>
+            <package name="restTests.US03"/>
+            <package name="restTests.US04"/>
+            <package name="restTests.US05"/>
+            <package name="restTests.US06"/>
+            <package name="restTests.US07"/>
+            <package name="restTests.US08"/>
+            <package name="restTests.US09"/>
+            <package name="restTests.US12"/>
+            <package name="restTests.US13"/>
+            <package name="restTests.US14"/>
+            <package name="restTests.US17"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+    <suite-files>
+        <suite-file path="ui/uiRegresion.xml"/>
+        <suite-file path="rest/restRegresion.xml"/>
+    </suite-files>
+</suite>

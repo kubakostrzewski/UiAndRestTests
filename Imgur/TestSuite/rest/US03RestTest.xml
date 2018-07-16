@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="US03REST" verbose="10">
+    <test name="US03REST">
+        <classes>
+            <class name="restTests.US03.US03TC01RestTest"/>
+        </classes>
+    </test>
+</suite>
